@@ -1,0 +1,106 @@
+.product {
+  display: flex;
+  flex-direction: column;
+  max-height: 400px;
+  min-width: 100px;
+  background-color: white;
+  align-items: center;
+  justify-content: flex-end;
+  margin: 10px;
+  padding: 20px;
+  width: 100%;
+  z-index: 1;
+}
+
+.product__price {
+  margin-top: 5px;
+}
+
+.product__rating {
+  display: flex;
+}
+
+.product > img {
+  width: 100%;
+  max-height: 200px;
+  object-fit: contain;
+  margin-bottom: 15px;
+}
+
+.product__info {
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+.product > button {
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-color: #a88734 #9c7e31 #846a29;
+}
+
+.a-button-span12 {
+  width: 50% !important;
+}
+
+.a-button-primary {
+  background-image: initial;
+  background-position-x: initial;
+  background-position-y: initial;
+  background-size: initial;
+  background-attachment: initial;
+  background-origin: initial;
+  background-clip: initial;
+  background-color: rgb(214, 159, 18) !important;
+  border-color: #a88734 #aa872d #846a29 !important;
+  border-top-color: rgb(168, 135, 52) !important ;
+  border-right-color: rgb(156, 126, 49) !important;
+  border-bottom-color: rgb(132, 106, 41) !important;
+  border-left-color: rgb(156, 126, 49) !important;
+  color: #111;
+}
+
+.a-button {
+  border-radius: 3px solid black !important;
+  border-top-left-radius: 3px solid black !important;
+  border-top-left-radius: 3px solid black !important;
+  border-bottom-left-radius: 3px solid black !important;
+  border-bottom-right-radius: 3px solid black !important;
+  border-style: solid;
+  border-width: 1px;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0;
+  text-align: center;
+  text-decoration: none !important;
+  vertical-align: middle;
+}
+
+.a-button:hover,
+.a-button a {
+  background-color: rgb(243, 176, 6) !important;
+  text-decoration: none !important;
+  text-decoration-line: none !important;
+  text-decoration-style: initial !important;
+  text-decoration-color: initial !important;
+}
+
+.a-spacing-top-mini {
+  margin-top: 6px !important;
+}
+
+.a-button-text {
+  background-color: transparent;
+  border: 0;
+  display: block;
+  font-size: 13px;
+  line-height: 29px;
+  margin: 0;
+  outline: 0;
+  padding: 0 10px 0 11px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.product__name {
+  color: #252a34;
+}
